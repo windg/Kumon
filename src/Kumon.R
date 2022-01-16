@@ -3,6 +3,7 @@
 
 digit = 4
 q_type = '-'
+filename = 'foo.pdf'
 
 pdf_w <- 8.5
 pdf_h <- 11
@@ -11,7 +12,7 @@ n_col <- 5
 cell_w = pdf_w/n_col
 cell_h = pdf_h/n_row
 
-pdf(file="foo.pdf",w=pdf_w,h=pdf_h)
+pdf(file=filename,w=pdf_w,h=pdf_h)
 par(mar=c(0, 0, 0, 0))
 
 plot(x = -1,y=-1,xlim=c(0,pdf_w),ylim=c(0,pdf_h))
