@@ -1,5 +1,5 @@
 ###
-setwd("C:\\Users\\phuang\\Documents\\Personal\\Kumon")
+#setwd("C:\\Users\\phuang\\Documents\\Personal\\Kumon")
 
 digit = 4
 q_type = '-'
